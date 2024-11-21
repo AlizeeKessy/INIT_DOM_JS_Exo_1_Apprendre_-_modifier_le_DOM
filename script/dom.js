@@ -67,3 +67,6 @@ Modifier le style
 • mettre une bordure 'solid 1px black' et un padding '10px' au paragraphe
 • faire disparaître la liste
 */
+var filtre = new RegExp("^[a-z]+$");
+var resultat = filtre.test("javascript");
+console.log(resultat);
